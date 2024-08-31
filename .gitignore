@@ -1,0 +1,71 @@
+# Node.js dependencies
+# Ignore the node_modules/ directory where all npm/yarn packages are stored.
+node_modules/
+
+# Environment variables
+# Ignore .env files that contain sensitive information like API keys, database credentials, etc.
+.env
+
+# Logs
+# Ignore log files created during development or production.
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+# Ignore directories where build artifacts (compiled files) are placed by build tools.
+dist/
+build/
+
+# System files
+# Ignore system files that are specific to macOS or Windows.
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Editor configurations
+# Ignore editor/IDE configuration files that may differ from one developer to another.
+.vscode/   # Visual Studio Code
+.idea/     # IntelliJ IDEA/WebStorm
+*.sublime-workspace  # Sublime Text workspace
+*.sublime-project    # Sublime Text project
+
+# Coverage reports
+# Ignore code coverage reports generated during testing.
+coverage/
+
+# Temporary files
+# Ignore temporary files that are created during development but aren't part of the actual project.
+tmp/
+temp/
+*.tmp
+
+# Compiled code (optional)
+# Ignore compiled code from languages like TypeScript, Java, or Python.
+*.out
+*.o
+*.pyc
+*.class
+
+# Dependency lock files (optional)
+# If using both npm and yarn, ignore the lock file of the one you're not using.
+# This helps avoid conflicts between npm and yarn lock files.
+yarn.lock  # if using npm
+package-lock.json  # if using yarn
+
+# Docker Files (optional)
+# Ignore Docker override files if you're using Docker for local development.
+docker-compose.override.yml
+
+# Test output
+# Ignore test result files and directories generated during testing.
+junit-report.xml
+test-results/
+
+# Other specific files (optional)
+# Ignore specific project files that you don’t want to track in version control.
+.cache/
+logs/
+
+# End of .gitignore file
